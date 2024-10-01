@@ -1,0 +1,23 @@
+*{
+    margin: 0, auto;
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* DA FORMATO AL DIV PRINCIPAL */
+
+#contenedor{
+    display: flex;
+    align-content: center;
+    justify-content: center ;
+    margin-top: 100px;
+}
+
+/* DA FORMTO A EL BTÓN Y EL INPUT QUE ESTÁN EN UN DIV */
+
+.centrado{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: -200px;
+}
